@@ -21,8 +21,7 @@ end
 println(sum_integers([1,2,3,4,5]))
 
 using Pkg
-# Pkg.add("Spark")
-Pkg.add(path="./Spark.jl")
+Pkg.add("Spark")
 using Spark
 
 
